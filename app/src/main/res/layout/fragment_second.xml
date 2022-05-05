@@ -41,11 +41,12 @@
         android:id="@+id/tv_C_N2"
         android:layout_width="150dp"
         android:layout_height="80dp"
+        android:layout_marginTop="16dp"
         android:background="@android:color/white"
         android:text="@string/kenobi_ltt"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
