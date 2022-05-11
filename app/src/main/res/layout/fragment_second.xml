@@ -57,7 +57,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="200dp"
         android:background="@color/white"
-        android:text="@string/quali_speed"
+        android:text="Qualifying"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,7 +81,7 @@
         android:layout_marginTop="184dp"
         android:background="@android:color/white"
         android:inputType="number"
-        android:text="number 1-10"
+        android:text="Number 1-10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toEndOf="@+id/tv_qs"
@@ -105,7 +105,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="55dp"
         android:background="@color/white"
-        android:text="Overtaking"
+        android:text="Race pace"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_qs" />
 
@@ -116,7 +116,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="55dp"
         android:background="@color/white"
-        android:text="race craft"
+        android:text="Racecraft"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_o" />
 
@@ -127,7 +127,7 @@
         android:layout_marginTop="24dp"
         android:background="@android:color/white"
         android:inputType="number"
-        android:text="number 1-10"
+        android:text="Number 1-10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toEndOf="@+id/tv_rc"
@@ -140,7 +140,7 @@
         android:layout_marginTop="24dp"
         android:background="@android:color/white"
         android:inputType="number"
-        android:text="number 1-10"
+        android:text="Number 1-10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toEndOf="@+id/tv_o"
