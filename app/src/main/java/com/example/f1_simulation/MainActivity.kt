@@ -9,7 +9,9 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import com.example.f1_simulation.databinding.ActivityMainBinding
+import com.release.gfg1.DBHelper
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +20,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
+        val db = DBHelper(this, null)
+
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

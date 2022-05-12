@@ -109,6 +109,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_T" />
 
+    <!--Edit text to enter First name -->
     <EditText
         android:id="@+id/et_F_N"
         android:layout_width="109dp"
@@ -124,6 +125,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.321" />
 
+    <!--Edit text to enter Surname -->
     <EditText
         android:id="@+id/et_S_N"
         android:layout_width="109dp"
@@ -137,6 +139,7 @@
         app:layout_constraintStart_toEndOf="@+id/tv_S_N"
         app:layout_constraintTop_toBottomOf="@+id/et_F_N" />
 
+    <!--Edit text to enter Team name -->
     <EditText
         android:id="@+id/et_T"
         android:layout_width="109dp"
@@ -150,6 +153,7 @@
         app:layout_constraintStart_toEndOf="@+id/tv_T"
         app:layout_constraintTop_toBottomOf="@+id/et_S_N" />
 
+    <!--Edit text to enter Driver number -->
     <EditText
         android:id="@+id/et_N"
         android:layout_width="109dp"
