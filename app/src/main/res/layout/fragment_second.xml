@@ -11,11 +11,13 @@
         android:id="@+id/btn_N_D2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="188dp"
         android:text="@string/next_driver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_ov_a"
+        app:layout_constraintVertical_bias="0.298" />
 
     <Button
         android:id="@+id/btn_N_S2"
@@ -57,7 +59,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="200dp"
         android:background="@color/white"
-        android:text="Qualifying"
+        android:text="@string/qualifying"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -68,7 +70,7 @@
         android:layout_marginTop="24dp"
         android:background="@android:color/white"
         android:inputType="number"
-        android:text="Number 1-10"
+        android:text="@string/number_1_10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.206"
         app:layout_constraintStart_toEndOf="@+id/tv_ov"
@@ -78,14 +80,14 @@
         android:id="@+id/et_qs_a"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="84dp"
         android:background="@android:color/white"
         android:inputType="number"
-        android:text="Number 1-10"
+        android:text="@string/number_1_10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toEndOf="@+id/tv_qs"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_C_N2" />
 
     <TextView
         android:id="@+id/tv_ov"
@@ -105,7 +107,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="55dp"
         android:background="@color/white"
-        android:text="Race pace"
+        android:text="@string/race_pace"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_qs" />
 
@@ -116,7 +118,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="55dp"
         android:background="@color/white"
-        android:text="Racecraft"
+        android:text="@string/racecraft"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_o" />
 
@@ -127,7 +129,7 @@
         android:layout_marginTop="24dp"
         android:background="@android:color/white"
         android:inputType="number"
-        android:text="Number 1-10"
+        android:text="@string/number_1_10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.225"
         app:layout_constraintStart_toEndOf="@+id/tv_rc"
@@ -140,7 +142,7 @@
         android:layout_marginTop="24dp"
         android:background="@android:color/white"
         android:inputType="number"
-        android:text="Number 1-10"
+        android:text="@string/number_1_10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toEndOf="@+id/tv_o"

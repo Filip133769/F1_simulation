@@ -37,7 +37,7 @@ class SecondFragment : Fragment() {
         }
 
         binding.btnNS2.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            findNavController().navigate(R.id.action_SecondFragment_to_thirdFragment)
         }
     }
 

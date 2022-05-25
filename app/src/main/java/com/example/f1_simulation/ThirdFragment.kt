@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.f1_simulation.databinding.FragmentSecondBinding
 import com.example.f1_simulation.databinding.FragmentThirdBinding
 
 /**
@@ -33,13 +32,12 @@ class ThirdFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        /*binding.btnPrev.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+
+        binding.btnPrev2.setOnClickListener {
+            findNavController().navigate(R.id.action_thirdFragment_to_SecondFragment)
         }
 
-        binding.btnNS2.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-        }*/
+
     }
 
     override fun onDestroyView() {

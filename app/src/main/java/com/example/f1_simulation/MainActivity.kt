@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val db = DBHelper(this, null)
-
+    
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

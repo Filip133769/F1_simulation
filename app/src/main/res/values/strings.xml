@@ -24,4 +24,9 @@
     <string name="next_driver">next_driver</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="qualifying">Qualifying</string>
+    <string name="number_1_10">Number 1-10</string>
+    <string name="race_pace">Race pace</string>
+    <string name="racecraft">Racecraft</string>
+    <string name="reset">Reset</string>
 </resources>
